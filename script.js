@@ -17,9 +17,10 @@ class Billete {
   }
 }
 
-cajero.push(new Billete(50, 3));
-cajero.push(new Billete(20, 2));
-cajero.push(new Billete(10, 2));
+cajero.push(new Billete(100, 200));
+cajero.push(new Billete(50, 200));
+cajero.push(new Billete(20, 200));
+cajero.push(new Billete(10, 200));
 
 function entregarDinero() {
   var txtMonto = document.getElementById("txt-monto");
